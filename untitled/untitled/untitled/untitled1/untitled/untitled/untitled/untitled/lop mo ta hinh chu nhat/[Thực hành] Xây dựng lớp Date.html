@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+public static void main(String[] args) {
+HCN tinh=new HCN();
+tinh.nhapDL();
+tinh.chuvi();
+tinh.dientich();
+System.out.println("Chu vi: " + tinh.chuvi());
+System.out.println("Dien tich: " + tinh.dientich());
+}
+
+}
+class HCN
+{
+int cd, cr, cv, dt;
+public void nhapDL()
+{
+Scanner nhap=new Scanner(System.in);
+System.out.println("Nhap chieu dai:");
+cd=nhap.nextInt();
+System.out.println("Nhap chieu rong:");
+cr=nhap.nextInt();
+
+}
+public int dientich()
+{
+dt = cd * cr;
+return dt;
+}
+public int chuvi()
+{
+cv= 2* (cd + cr);
+return cv;
+}
+</script>
+</body>
+</html>

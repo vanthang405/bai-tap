@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["fNfeY"]); }
+
+__d("LitestandComposerPublisher",["Arbiter"],(function(a,b,c,d,e,f){f.publish=function(a,c,d){b("Arbiter").inform("LitestandComposer/publish",{composer_id:a,content_id:d,markup:c})}}),null);
+__d("PrivacySelectorNewDispatcher",["Dispatcher_DEPRECATED"],(function(a,b,c,d,e,f){__p&&__p();var g="selector";a=function(a){"use strict";babelHelpers.inheritsLoose(b,a);function b(){return a.apply(this,arguments)||this}var c=b.prototype;c.handleUpdateFromSelector=function(a){this.dispatch(babelHelpers["extends"]({payloadSource:g},a))};return b}(b("Dispatcher_DEPRECATED"));c=new a();e.exports=c}),null);
